@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RecyclerViewItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    tools:context=".SpecFragment">
+
+    <TextView
+        android:id="@+id/textViewSpecFragmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Название: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSpecFragmentCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Код: "
+        app:layout_constraintStart_toStartOf="@+id/textViewSpecFragmentName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSpecFragmentName" />
+
+    <TextView
+        android:id="@+id/textViewSpecFragmentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Описание: "
+        app:layout_constraintStart_toStartOf="@+id/textViewSpecFragmentCode"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSpecFragmentCode" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

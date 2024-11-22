@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuFragment">
+
+    <Button
+        android:id="@+id/buttonFAQ"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:text="FAQ"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/teacher"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/admin"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonSpec"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/spec"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/buttonCollege"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/college"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#808080"
+            android:textColorHint="#130000"
+            android:textSize="30dp" />
+    </LinearLayout>
+</LinearLayout>
